@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Notbank is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://notbank.com/
+Notbank is a global payments platform offering crypto asset brokerage, custody, and a suite of digital asset services. Operated by Dysopsis Limited (Ireland) and part of the CryptoMarket Group, Notbank provides stablecoins, instant cross‑border payments, institutional custody, and crypto‑as‑a‑service across multiple Latin American jurisdictions. The service includes interest‑bearing accounts, a crypto exchange, and developer tools for integrating payments and digital assets into applications.
+
+**Areas:** Company · Payments · Crypto · FinTech · DigitalAssets
+
+## Notbank on APIs.io
+
+Everything profiled for Notbank is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/notbank/](https://apis.io/providers/notbank/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Notbank API](https://apis.io/apis/notbank/notbank-api-2/) — Public API reference for Notbank Exchange platform offering crypto asset services.
+- [Notbank API](https://apis.io/apis/notbank/notbank-api/) — Notbank API as documented publicly: 17 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetLearnApiReferenceGeneralMdResponse](https://apis.io/schemas/notbank/notbank-get-learn-api-reference-general-md-response/)
+- [PostApiNbAccountRegisterRequest](https://apis.io/schemas/notbank/notbank-post-api-nb-account-register-request/)
+- [PostApiNbAccountVerificationBasicRequest](https://apis.io/schemas/notbank/notbank-post-api-nb-account-verification-basic-request/)
+- [PostApiNbAccountVerificationTraderRequest](https://apis.io/schemas/notbank/notbank-post-api-nb-account-verification-trader-request/)
+- [PostApiNbWalletCryptoWithdrawalRequest](https://apis.io/schemas/notbank/notbank-post-api-nb-wallet-crypto-withdrawal-request/)
+- [PostApiNbWalletTransferFundsRequest](https://apis.io/schemas/notbank/notbank-post-api-nb-wallet-transfer-funds-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Notbank Context](https://apis.io/jsonld/notbank/notbank-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Notbank API Rules](https://apis.io/rules/notbank/notbank-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Notbank Domain Security](https://apis.io/security/notbank/notbank-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Notbank Plans Pricing](https://apis.io/plans/notbank/notbank-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://notbank.com/)
+- [Documentation](https://www.notbank.com/learn/api-reference)
+- [Getting started](https://www.notbank.com/en)
+- [Support](https://support.notbank.com)
+- [Changelog](https://www.notbank.com/learn/changelog)
+- [Terms of service](https://www.notbank.com/en/legal)
+- [Status](https://status.notbank.com)
+
+## API Evangelist rating
+
+**Kin Score 50.9** — developing · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 54.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 52.1 |
+
+**Agent readiness 31.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/notbank/](https://apis.io/providers/notbank/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Notbank: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/notbank/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
